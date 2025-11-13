@@ -1,0 +1,60 @@
+{
+  "app": {
+    "title": "Multilingual RAG Console",
+    "latency": "Latency",
+    "tokens": "Tokens",
+    "confidence": "Confidence",
+    "language": "Language",
+    "noResults": "No documents retrieved yet.",
+    "logs": "Logs",
+    "profile": "Profile"
+  },
+  "topBar": {
+    "language": "Language",
+    "toggleLogs": "Toggle Log Panel"
+  },
+  "search": {
+    "placeholder": "Ask about anything…",
+    "submit": "Retrieve",
+    "targetLabel": "Translate results to",
+    "auto": "Original",
+    "detected": "Detected language",
+    "loading": "Retrieving…",
+    "uploadButton": "Upload documents",
+    "uploading": "Ingesting…",
+    "uploadSuccess": "Indexed {{count}} document(s).",
+    "uploadError": "Upload failed, please try again.",
+    "uploadEmpty": "No text could be extracted from the selected files.",
+    "uploadHint": "Attach UTF-8 text or PDF files to enrich the knowledge base.",
+    "uploadUnsupported": "File type {{name}} is not supported."
+  },
+  "results": {
+    "header": "AI Response",
+    "showOriginal": "Show original",
+    "showTranslated": "Show translated",
+    "sourceLanguage": "Source",
+    "confidence": "Confidence",
+    "highlights": "Matched keywords"
+  },
+  "context": {
+    "header": "Context",
+    "sourceLanguage": "Source language",
+    "score": "Score",
+    "confidence": "Confidence"
+  },
+  "feedback": {
+    "prompt": "Was this helpful?",
+    "helpful": "Helpful",
+    "notAccurate": "Not accurate",
+    "notesPlaceholder": "Optional notes to improve responses…",
+    "submitted": "Thanks for the feedback!"
+  },
+  "logPanel": {
+    "header": "Retrieval Log",
+    "queryLang": "Query language",
+    "retrievedLangs": "Retrieved languages",
+    "scoreMean": "Score mean",
+    "latency": "Latency (ms)"
+  }
+}
+

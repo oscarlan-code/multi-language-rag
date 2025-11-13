@@ -1,0 +1,60 @@
+{
+  "app": {
+    "title": "多语言 RAG 控制台",
+    "latency": "延迟",
+    "tokens": "令牌",
+    "confidence": "置信度",
+    "language": "语言",
+    "noResults": "尚未检索到文档。",
+    "logs": "日志",
+    "profile": "个人"
+  },
+  "topBar": {
+    "language": "界面语言",
+    "toggleLogs": "显示/隐藏日志面板"
+  },
+  "search": {
+    "placeholder": "输入任何问题…",
+    "submit": "检索",
+    "targetLabel": "结果翻译为",
+    "auto": "原文",
+    "detected": "检测语言",
+    "loading": "正在检索…",
+    "uploadButton": "上传文档",
+    "uploading": "正在入库…",
+    "uploadSuccess": "已索引 {{count}} 篇文档。",
+    "uploadError": "上传失败，请重试。",
+    "uploadEmpty": "所选文件未提取到文本。",
+    "uploadHint": "上传 UTF-8 文本或 PDF 文件以丰富知识库。",
+    "uploadUnsupported": "文件类型 {{name}} 暂不支持。"
+  },
+  "results": {
+    "header": "AI 回答",
+    "showOriginal": "查看原文",
+    "showTranslated": "查看译文",
+    "sourceLanguage": "来源",
+    "confidence": "置信度",
+    "highlights": "匹配关键词"
+  },
+  "context": {
+    "header": "上下文",
+    "sourceLanguage": "原始语言",
+    "score": "得分",
+    "confidence": "置信度"
+  },
+  "feedback": {
+    "prompt": "此结果是否有帮助？",
+    "helpful": "有帮助",
+    "notAccurate": "不准确",
+    "notesPlaceholder": "提供可选说明帮助我们改进…",
+    "submitted": "感谢您的反馈！"
+  },
+  "logPanel": {
+    "header": "检索日志",
+    "queryLang": "查询语言",
+    "retrievedLangs": "检索语言",
+    "scoreMean": "平均得分",
+    "latency": "延迟 (毫秒)"
+  }
+}
+

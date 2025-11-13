@@ -1,0 +1,60 @@
+{
+  "app": {
+    "title": "다국어 RAG 콘솔",
+    "latency": "지연 시간",
+    "tokens": "토큰",
+    "confidence": "신뢰도",
+    "language": "언어",
+    "noResults": "아직 문서를 불러오지 않았습니다.",
+    "logs": "로그",
+    "profile": "프로필"
+  },
+  "topBar": {
+    "language": "인터페이스 언어",
+    "toggleLogs": "로그 패널 전환"
+  },
+  "search": {
+    "placeholder": "무엇이든 질문해 보세요…",
+    "submit": "검색",
+    "targetLabel": "결과 언어",
+    "auto": "원문",
+    "detected": "감지된 언어",
+    "loading": "검색 중…",
+    "uploadButton": "문서 업로드",
+    "uploading": "가져오는 중…",
+    "uploadSuccess": "{{count}}개의 문서를 색인했습니다.",
+    "uploadError": "업로드에 실패했습니다. 다시 시도하세요.",
+    "uploadEmpty": "선택한 파일에서 텍스트를 추출하지 못했습니다.",
+    "uploadHint": "지식베이스를 확장하려면 UTF-8 텍스트 또는 PDF 파일을 첨부하세요.",
+    "uploadUnsupported": "{{name}} 파일 형식은 지원되지 않습니다."
+  },
+  "results": {
+    "header": "AI 응답",
+    "showOriginal": "원문 보기",
+    "showTranslated": "번역 보기",
+    "sourceLanguage": "출처",
+    "confidence": "신뢰도",
+    "highlights": "일치한 키워드"
+  },
+  "context": {
+    "header": "컨텍스트",
+    "sourceLanguage": "원문 언어",
+    "score": "점수",
+    "confidence": "신뢰도"
+  },
+  "feedback": {
+    "prompt": "이 응답이 도움이 되었나요?",
+    "helpful": "도움이 되었어요",
+    "notAccurate": "정확하지 않아요",
+    "notesPlaceholder": "개선에 도움이 되는 의견을 남겨주세요…",
+    "submitted": "소중한 의견 감사합니다!"
+  },
+  "logPanel": {
+    "header": "검색 로그",
+    "queryLang": "질문 언어",
+    "retrievedLangs": "검색된 언어",
+    "scoreMean": "평균 점수",
+    "latency": "지연 시간 (ms)"
+  }
+}
+

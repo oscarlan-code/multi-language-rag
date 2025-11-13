@@ -1,0 +1,11 @@
+fastapi
+uvicorn[standard]
+langdetect
+rank-bm25
+FlagEmbedding
+pydantic
+python-dotenv
+httpx
+pdfplumber
+pytesseract
+Pillow

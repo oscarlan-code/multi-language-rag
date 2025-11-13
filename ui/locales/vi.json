@@ -1,0 +1,60 @@
+{
+  "app": {
+    "title": "Bảng điều khiển RAG đa ngôn ngữ",
+    "latency": "Độ trễ",
+    "tokens": "Token",
+    "confidence": "Độ tin cậy",
+    "language": "Ngôn ngữ",
+    "noResults": "Chưa có tài liệu nào được truy xuất.",
+    "logs": "Nhật ký",
+    "profile": "Hồ sơ"
+  },
+  "topBar": {
+    "language": "Ngôn ngữ giao diện",
+    "toggleLogs": "Bật/tắt bảng nhật ký"
+  },
+  "search": {
+    "placeholder": "Hãy đặt bất kỳ câu hỏi nào…",
+    "submit": "Truy xuất",
+    "targetLabel": "Dịch kết quả sang",
+    "auto": "Nguyên bản",
+    "detected": "Ngôn ngữ nhận diện",
+    "loading": "Đang truy xuất…",
+    "uploadButton": "Tải lên tài liệu",
+    "uploading": "Đang nhập…",
+    "uploadSuccess": "Đã lập chỉ mục {{count}} tài liệu.",
+    "uploadError": "Tải lên thất bại, vui lòng thử lại.",
+    "uploadEmpty": "Không thể trích xuất văn bản từ tệp đã chọn.",
+    "uploadHint": "Tải lên tệp văn bản UTF-8 hoặc PDF để mở rộng kho tri thức.",
+    "uploadUnsupported": "Không hỗ trợ định dạng {{name}}."
+  },
+  "results": {
+    "header": "Phản hồi AI",
+    "showOriginal": "Hiện nguyên bản",
+    "showTranslated": "Hiện bản dịch",
+    "sourceLanguage": "Nguồn",
+    "confidence": "Độ tin cậy",
+    "highlights": "Từ khóa khớp"
+  },
+  "context": {
+    "header": "Ngữ cảnh",
+    "sourceLanguage": "Ngôn ngữ nguồn",
+    "score": "Điểm",
+    "confidence": "Độ tin cậy"
+  },
+  "feedback": {
+    "prompt": "Kết quả này có hữu ích không?",
+    "helpful": "Hữu ích",
+    "notAccurate": "Chưa chính xác",
+    "notesPlaceholder": "Ghi chú bổ sung để chúng tôi cải thiện…",
+    "submitted": "Cảm ơn phản hồi của bạn!"
+  },
+  "logPanel": {
+    "header": "Nhật ký truy xuất",
+    "queryLang": "Ngôn ngữ truy vấn",
+    "retrievedLangs": "Ngôn ngữ đã truy xuất",
+    "scoreMean": "Điểm trung bình",
+    "latency": "Độ trễ (ms)"
+  }
+}
+

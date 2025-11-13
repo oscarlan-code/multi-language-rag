@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+.venv/
+venv/
+
+# Environment
+.env
+.env.*
+
+# Node / Frontend
+ui/node_modules/
+ui/dist/
+ui/.vite/
+*.log
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+
+# OS / Editor
+.DS_Store
+.idea/
+.vscode/
+
+# Build artifacts
+*.sqlite3
+coverage/
+

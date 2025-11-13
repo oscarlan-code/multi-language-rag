@@ -1,0 +1,60 @@
+{
+  "app": {
+    "title": "बहुभाषी RAG कंसोल",
+    "latency": "विलंब",
+    "tokens": "टोकन",
+    "confidence": "विश्वसनीयता",
+    "language": "भाषा",
+    "noResults": "अभी तक कोई दस्तावेज़ प्राप्त नहीं हुआ।",
+    "logs": "लॉग",
+    "profile": "प्रोफ़ाइल"
+  },
+  "topBar": {
+    "language": "इंटरफ़ेस भाषा",
+    "toggleLogs": "लॉग पैनल टॉगल करें"
+  },
+  "search": {
+    "placeholder": "कुछ भी पूछें…",
+    "submit": "खोजें",
+    "targetLabel": "परिणाम का अनुवाद करें",
+    "auto": "मूल",
+    "detected": "पहचानी गई भाषा",
+    "loading": "खोज जारी…",
+    "uploadButton": "दस्तावेज़ अपलोड करें",
+    "uploading": "इंजेस्ट किया जा रहा है…",
+    "uploadSuccess": "{{count}} दस्तावेज़ जोड़े गए।",
+    "uploadError": "अपलोड विफल रहा, कृपया पुनः प्रयास करें।",
+    "uploadEmpty": "चयनित फ़ाइलों से कोई पाठ नहीं मिला।",
+    "uploadHint": "ज्ञान आधार बढ़ाने के लिए UTF-8 टेक्स्ट या PDF फ़ाइलें अपलोड करें।",
+    "uploadUnsupported": "{{name}} फ़ाइल प्रकार समर्थित नहीं है।"
+  },
+  "results": {
+    "header": "AI उत्तर",
+    "showOriginal": "मूल दिखाएँ",
+    "showTranslated": "अनुवाद दिखाएँ",
+    "sourceLanguage": "स्रोत",
+    "confidence": "विश्वसनीयता",
+    "highlights": "मिलान किए गए शब्द"
+  },
+  "context": {
+    "header": "प्रसंग",
+    "sourceLanguage": "स्रोत भाषा",
+    "score": "स्कोर",
+    "confidence": "विश्वसनीयता"
+  },
+  "feedback": {
+    "prompt": "क्या यह परिणाम उपयोगी था?",
+    "helpful": "उपयोगी",
+    "notAccurate": "सटीक नहीं",
+    "notesPlaceholder": "सुधार के लिए वैकल्पिक नोट्स दें…",
+    "submitted": "आपकी प्रतिक्रिया के लिए धन्यवाद!"
+  },
+  "logPanel": {
+    "header": "रिकॉल लॉग",
+    "queryLang": "प्रश्न भाषा",
+    "retrievedLangs": "प्राप्त भाषाएँ",
+    "scoreMean": "औसत स्कोर",
+    "latency": "विलंब (ms)"
+  }
+}
+
