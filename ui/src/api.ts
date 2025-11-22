@@ -39,3 +39,11 @@ export async function uploadDocuments(files: FileList): Promise<{ files: number;
   });
   return response.data;
 }
+
+export async function translateUITexts(texts: string[], targetLang: string): Promise<string[]> {
+  const response = await client.post<{ translations: string[] }>("/translate-ui", {
+    texts,
+    target_lang: targetLang
+  });
+  return response.data.translations;
+}

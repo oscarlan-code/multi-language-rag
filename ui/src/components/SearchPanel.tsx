@@ -67,7 +67,7 @@ export default function SearchPanel({
               <option value="en">English</option>
               <option value="zh">中文（简体）</option>
               <option value="zh-TW">繁體中文</option>
-              <option value="jp">日本語</option>
+              <option value="ja">日本語</option>  {/* Changed from "jp" to "ja" */}
               <option value="ko">한국어</option>
               <option value="hi">हिन्दी</option>
               <option value="bn">বাংলা</option>

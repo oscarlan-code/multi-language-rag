@@ -11,7 +11,7 @@ const languageOptions = [
   { value: "en", label: "English" },
   { value: "zh", label: "中文（简体）" },
   { value: "zh-TW", label: "繁體中文" },
-  { value: "jp", label: "日本語" },
+  { value: "ja", label: "日本語" },  // Changed from "jp" to "ja" for backend compatibility
   { value: "ko", label: "한국어" },
   { value: "hi", label: "हिन्दी" },
   { value: "bn", label: "বাংলা" },

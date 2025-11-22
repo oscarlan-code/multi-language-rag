@@ -52,11 +52,20 @@ export default function App() {
     }
   }, [uiLanguage]);
 
-  const handleLanguageChange = (lang: string) => {
-    i18n.changeLanguage(lang);
-    setUiLanguage(lang);
-    if (typeof window !== "undefined") {
-      window.localStorage.setItem("rag-ui-language", lang);
+  const handleLanguageChange = async (lang: string) => {
+    try {
+      console.log("[App] Changing language to:", lang);
+      setUiLanguage(lang);
+      if (typeof window !== "undefined") {
+        window.localStorage.setItem("rag-ui-language", lang);
+      }
+      // Change language and wait for translations to load
+      await i18n.changeLanguage(lang);
+      console.log("[App] Language changed, current language:", i18n.language);
+      // Force a re-render by updating state
+      setUiLanguage(i18n.language);
+    } catch (error) {
+      console.error("[App] Failed to change language:", error);
     }
   };
 

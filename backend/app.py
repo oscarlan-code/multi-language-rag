@@ -200,3 +200,34 @@ def record_feedback(payload: FeedbackRequest) -> dict[str, str]:
         },
     )
     return {"status": "received"}
+
+
+class UITranslationRequest(BaseModel):
+    texts: List[str]
+    target_lang: str
+
+
+@app.post("/translate-ui")
+def translate_ui(payload: UITranslationRequest) -> dict[str, List[str]]:
+    """
+    Translate UI strings on-demand.
+    This endpoint allows the frontend to translate UI content dynamically
+    without requiring pre-translated JSON files.
+    """
+    if not payload.texts:
+        return {"translations": []}
+    
+    # Use LLM client to translate UI strings
+    translated_texts: List[str] = []
+    for text in payload.texts:
+        if not text.strip():
+            translated_texts.append(text)
+            continue
+        try:
+            translated = _llm.translate_text(text, payload.target_lang)
+            translated_texts.append(translated if translated.strip() else text)
+        except Exception as e:
+            logger.warning("ui_translation_failed", extra={"text": text[:50], "error": str(e)})
+            translated_texts.append(text)  # Fallback to original
+    
+    return {"translations": translated_texts}

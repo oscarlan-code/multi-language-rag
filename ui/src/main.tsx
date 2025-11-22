@@ -2,7 +2,8 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import App from "./App";
 import "./styles.css";
-import "./i18n";
+// Use dynamic translation system (treats UI as variables, translates on-demand)
+import "./i18n-dynamic";
 
 const rootElement = document.getElementById("root");
 
